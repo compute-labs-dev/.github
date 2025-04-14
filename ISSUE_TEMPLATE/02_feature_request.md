@@ -1,6 +1,6 @@
 ---
 name: 🛠️ Feature Request
-about: Something can be improved
+about: Something can be improved/added
 ---
 
 <!--- Provide a general summary of the feature request in the Title above -->
