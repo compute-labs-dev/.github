@@ -7,9 +7,9 @@ about: A smaller component of work
 
 ## Necessary Component/Activity Behavior
 <!--- What behavior is required for this component to work properly -->
-[ ] Be sure to list
-[ ] acceptance
-[ ] criteria
+- [ ] Be sure to list
+- [ ] acceptance
+- [ ] criteria
 
 ## Possible Solution
 <!--- Not obligatory, ideas how to implement this component -->

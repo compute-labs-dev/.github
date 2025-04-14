@@ -10,9 +10,9 @@ about: Something can be improved
 
 ## Desired Behavior
 <!--- Describe how it should work -->
-[ ] Be sure to list
-[ ] acceptance
-[ ] criteria
+- [ ] Be sure to list
+- [ ] acceptance
+- [ ] criteria
 
 ## Possible Solution
 <!--- Not obligatory, ideas how to implement the addition or change -->
