@@ -1,0 +1,40 @@
+name: 🏗️ Work Breakdown
+description: A smaller component of work
+title: "[Work Breakdown]: "
+labels: ["work-breakdown"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for using this template to break down work into manageable components!
+
+  - type: textarea
+    id: component-behavior
+    attributes:
+      label: Necessary Component/Activity Behavior
+      description: What behavior is required for this component to work properly
+      placeholder: List the requirements for this component
+    validations:
+      required: true
+
+  - type: textarea
+    id: possible-solution
+    attributes:
+      label: Possible Solution
+      description: Ideas on how to implement this component (not obligatory)
+      placeholder: Share your implementation thoughts if you have any
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any related items/integrations, or any concerns for this component
+      placeholder: Provide context that helps understand why this work is needed
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This work is estimated to be 1 workday or less, or I am going to break down this issue further with sub-issues.
+          required: true 

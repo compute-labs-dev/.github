@@ -1,0 +1,74 @@
+name: 🐜 Bug Report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what should happen
+      placeholder: What did you expect to see?
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: Describe what happens instead of the expected behavior
+      placeholder: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: possible-solution
+    attributes:
+      label: Possible Solution
+      description: Not obligatory, but suggest a fix/reason for the bug
+      placeholder: Any ideas on what might be causing this or how to fix it?
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide an unambiguous set of steps to reproduce this bug
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: How has this issue affected you? What are you trying to accomplish?
+      placeholder: Providing context helps us come up with a solution that is most useful in the real world
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Your Environment
+      description: Include as many relevant details about the environment you experienced the bug in
+      placeholder: |
+        * Version used:
+        * Environment name and version (e.g. Chrome 39, node.js 5.4):
+        * Operating System and version (desktop or mobile):
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This bug is estimated to be 1 workday or less, or I am going to break down this issue further with sub-issues.
+          required: true 
